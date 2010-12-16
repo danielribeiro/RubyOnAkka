@@ -1,0 +1,82 @@
+[INFO] [2010-12-15 18:33:36,057] [main] s.s.a.c.Config$: Config loaded from the application classpath.
+[DEBUG] [2010-12-15 18:33:36,082] [main] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Creating a se.scalablesolutions.akka.dispatch.Dispatchers$globalExecutorBasedEventDrivenDispatcher$ with config [core-pool:16,max-pool:128,timeout:60000,allowCoreTimeout:false,rejectPolicy:CallerRunsPolicy]
+[WARN] [2010-12-15 18:33:36,083] [main] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Tried to configure an already started ThreadPoolBuilder of type [se.scalablesolutions.akka.dispatch.Dispatchers$globalExecutorBasedEventDrivenDispatcher$]
+[DEBUG] [2010-12-15 18:33:36,166] [main] s.s.a.d.ThreadBasedDispatcher: Starting up ThreadBasedDispatcher[akka:thread-based:dispatcher:se.scalablesolutions.akka.actor.LocalActorRef:1292780760388]
+[DEBUG] [2010-12-15 18:33:36,171] [main] s.s.a.d.ThreadBasedDispatcher: Starting up ThreadBasedDispatcher[akka:thread-based:dispatcher:se.scalablesolutions.akka.actor.LocalActorRef:1292780760476]
+[DEBUG] [2010-12-15 18:33:36,172] [main] s.s.a.d.ThreadBasedDispatcher: Starting up ThreadBasedDispatcher[akka:thread-based:dispatcher:se.scalablesolutions.akka.actor.LocalActorRef:1292780760477]
+[INFO] [2010-12-15 18:33:43,381] [akka:thread-based:dispatcher:se.scalablesolutions.akka.actor.LocalActorRef:1292780760388] s.s.a.a.ActorRegistry$: Shutting down all actors in the system...
+[DEBUG] [2010-12-15 18:33:43,382] [akka:thread-based:dispatcher:se.scalablesolutions.akka.actor.LocalActorRef:1292780760388] s.s.a.d.ThreadBasedDispatcher: Shutting down ThreadBasedDispatcher[akka:thread-based:dispatcher:se.scalablesolutions.akka.actor.LocalActorRef:1292780760477]
+[DEBUG] [2010-12-15 18:33:43,402] [akka:thread-based:dispatcher:se.scalablesolutions.akka.actor.LocalActorRef:1292780760388] s.s.a.d.ThreadBasedDispatcher: Shutting down ThreadBasedDispatcher[akka:thread-based:dispatcher:se.scalablesolutions.akka.actor.LocalActorRef:1292780760476]
+[DEBUG] [2010-12-15 18:33:43,402] [akka:thread-based:dispatcher:se.scalablesolutions.akka.actor.LocalActorRef:1292780760388] s.s.a.d.ThreadBasedDispatcher: Shutting down ThreadBasedDispatcher[akka:thread-based:dispatcher:se.scalablesolutions.akka.actor.LocalActorRef:1292780760388]
+[INFO] [2010-12-15 18:33:43,403] [akka:thread-based:dispatcher:se.scalablesolutions.akka.actor.LocalActorRef:1292780760388] s.s.a.a.ActorRegistry$: All actors have been shut down and unregistered from ActorRegistry
+[INFO] [2010-12-15 18:52:10,545] [main] s.s.a.c.Config$: Config loaded from the application classpath.
+[DEBUG] [2010-12-15 18:52:10,572] [main] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Creating a se.scalablesolutions.akka.dispatch.Dispatchers$globalExecutorBasedEventDrivenDispatcher$ with config [core-pool:16,max-pool:128,timeout:60000,allowCoreTimeout:false,rejectPolicy:CallerRunsPolicy]
+[WARN] [2010-12-15 18:52:10,573] [main] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Tried to configure an already started ThreadPoolBuilder of type [se.scalablesolutions.akka.dispatch.Dispatchers$globalExecutorBasedEventDrivenDispatcher$]
+[DEBUG] [2010-12-15 18:52:10,641] [main] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Starting up ExecutorBasedEventDrivenDispatcher[akka:event-driven:dispatcher:global]
+	with throughput [5]
+[DEBUG] [2010-12-15 18:52:10,651] [akka:event-driven:dispatcher:global-1] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-1
+[DEBUG] [2010-12-15 18:52:10,655] [akka:event-driven:dispatcher:global-2] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-2
+[DEBUG] [2010-12-15 18:52:10,655] [akka:event-driven:dispatcher:global-3] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-3
+[DEBUG] [2010-12-15 18:52:10,655] [akka:event-driven:dispatcher:global-4] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-4
+[DEBUG] [2010-12-15 18:52:10,656] [akka:event-driven:dispatcher:global-5] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-5
+[DEBUG] [2010-12-15 18:52:10,657] [akka:event-driven:dispatcher:global-6] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-6
+[DEBUG] [2010-12-15 18:52:10,663] [akka:event-driven:dispatcher:global-15] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-15
+[DEBUG] [2010-12-15 18:52:10,661] [akka:event-driven:dispatcher:global-14] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-14
+[DEBUG] [2010-12-15 18:52:10,660] [akka:event-driven:dispatcher:global-13] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-13
+[DEBUG] [2010-12-15 18:52:10,660] [akka:event-driven:dispatcher:global-12] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-12
+[DEBUG] [2010-12-15 18:52:10,660] [akka:event-driven:dispatcher:global-11] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-11
+[DEBUG] [2010-12-15 18:52:10,659] [akka:event-driven:dispatcher:global-10] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-10
+[DEBUG] [2010-12-15 18:52:10,659] [akka:event-driven:dispatcher:global-9] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-9
+[DEBUG] [2010-12-15 18:52:10,658] [akka:event-driven:dispatcher:global-7] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-7
+[DEBUG] [2010-12-15 18:52:10,667] [akka:event-driven:dispatcher:global-8] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-8
+[DEBUG] [2010-12-15 18:52:10,676] [akka:event-driven:dispatcher:global-16] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-16
+[ERROR] [2010-12-15 18:52:18,618] [akka:event-driven:dispatcher:global-4] s.s.a.a.Actor$: Exception when invoking 
+	actor [Actor[org.jruby.proxy.se.scalablesolutions.akka.actor.UntypedActor$Proxy0:1292781874875]] 
+	with message [stop]
+org.jruby.exceptions.RaiseException: undefined local variable or method `start' for #<Actors::BlockActor:0xc135d6>
+	at Kernel.start(/home/daniel/NetBeansProjects/JrubyAkka/lib/slow_actor_word_count.rb:13) ~[na:na]
+	at (unknown).(unknown)(./akka.rb:31) ~[na:na]
+	at Kernel.instance_exec(./akka.rb:31) ~[na:na]
+	at Kernel.instance_exec(./akka.rb:31) ~[na:na]
+	at Actors::BlockActor.onReceive(:1) ~[na:na]
+	at (unknown).(unknown)(:1) ~[na:na]
+[INFO] [2010-12-15 18:52:39,852] [main] s.s.a.c.Config$: Config loaded from the application classpath.
+[DEBUG] [2010-12-15 18:52:39,881] [main] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Creating a se.scalablesolutions.akka.dispatch.Dispatchers$globalExecutorBasedEventDrivenDispatcher$ with config [core-pool:16,max-pool:128,timeout:60000,allowCoreTimeout:false,rejectPolicy:CallerRunsPolicy]
+[WARN] [2010-12-15 18:52:39,882] [main] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Tried to configure an already started ThreadPoolBuilder of type [se.scalablesolutions.akka.dispatch.Dispatchers$globalExecutorBasedEventDrivenDispatcher$]
+[DEBUG] [2010-12-15 18:52:39,952] [main] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Starting up ExecutorBasedEventDrivenDispatcher[akka:event-driven:dispatcher:global]
+	with throughput [5]
+[DEBUG] [2010-12-15 18:52:39,964] [akka:event-driven:dispatcher:global-1] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-1
+[DEBUG] [2010-12-15 18:52:39,969] [akka:event-driven:dispatcher:global-2] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-2
+[DEBUG] [2010-12-15 18:52:39,973] [akka:event-driven:dispatcher:global-3] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-3
+[DEBUG] [2010-12-15 18:52:39,977] [akka:event-driven:dispatcher:global-5] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-5
+[DEBUG] [2010-12-15 18:52:39,978] [akka:event-driven:dispatcher:global-6] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-6
+[DEBUG] [2010-12-15 18:52:39,978] [akka:event-driven:dispatcher:global-7] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-7
+[DEBUG] [2010-12-15 18:52:39,986] [akka:event-driven:dispatcher:global-8] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-8
+[DEBUG] [2010-12-15 18:52:39,988] [akka:event-driven:dispatcher:global-4] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-4
+[DEBUG] [2010-12-15 18:52:39,989] [akka:event-driven:dispatcher:global-9] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-9
+[DEBUG] [2010-12-15 18:52:39,990] [akka:event-driven:dispatcher:global-10] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-10
+[DEBUG] [2010-12-15 18:52:39,990] [akka:event-driven:dispatcher:global-11] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-11
+[DEBUG] [2010-12-15 18:52:39,991] [akka:event-driven:dispatcher:global-12] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-12
+[DEBUG] [2010-12-15 18:52:39,992] [akka:event-driven:dispatcher:global-13] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-13
+[DEBUG] [2010-12-15 18:52:39,992] [akka:event-driven:dispatcher:global-14] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-14
+[DEBUG] [2010-12-15 18:52:39,995] [akka:event-driven:dispatcher:global-15] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-15
+[DEBUG] [2010-12-15 18:52:40,002] [akka:event-driven:dispatcher:global-16] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-16
+[INFO] [2010-12-15 18:52:47,698] [akka:event-driven:dispatcher:global-16] s.s.a.a.ActorRegistry$: Shutting down all actors in the system...
+[DEBUG] [2010-12-15 18:52:47,720] [akka:event-driven:dispatcher:global-16] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Shutting down ExecutorBasedEventDrivenDispatcher[akka:event-driven:dispatcher:global]
+[INFO] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-16] s.s.a.a.ActorRegistry$: All actors have been shut down and unregistered from ActorRegistry
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-10] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-10
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-1] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-1
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-7] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-7
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-11] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-11
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-9] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-9
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-5] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-5
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-15] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-15
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-13] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-13
+[DEBUG] [2010-12-15 18:52:47,722] [akka:event-driven:dispatcher:global-14] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-14
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-3] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-3
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-6] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-6
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-8] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-8
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-4] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-4
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-12] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-12
+[DEBUG] [2010-12-15 18:52:47,721] [akka:event-driven:dispatcher:global-2] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-2
+[DEBUG] [2010-12-15 18:52:47,722] [akka:event-driven:dispatcher:global-16] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-16

@@ -1,0 +1,74 @@
+[INFO] [2010-12-16 01:00:45,732] [main] s.s.a.c.Config$: Config loaded from the application classpath.
+[DEBUG] [2010-12-16 01:00:45,758] [main] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Creating a se.scalablesolutions.akka.dispatch.Dispatchers$globalExecutorBasedEventDrivenDispatcher$ with config [core-pool:16,max-pool:128,timeout:60000,allowCoreTimeout:false,rejectPolicy:CallerRunsPolicy]
+[WARN] [2010-12-16 01:00:45,759] [main] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Tried to configure an already started ThreadPoolBuilder of type [se.scalablesolutions.akka.dispatch.Dispatchers$globalExecutorBasedEventDrivenDispatcher$]
+[DEBUG] [2010-12-16 01:00:45,822] [main] s.s.a.d.ExecutorBasedEventDrivenWorkStealingDispatcher: Creating a se.scalablesolutions.akka.dispatch.ExecutorBasedEventDrivenWorkStealingDispatcher with config [core-pool:16,max-pool:128,timeout:60000,allowCoreTimeout:false,rejectPolicy:CallerRunsPolicy]
+[DEBUG] [2010-12-16 01:00:45,847] [main] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Starting up ExecutorBasedEventDrivenDispatcher[akka:event-driven:dispatcher:global]
+	with throughput [5]
+[DEBUG] [2010-12-16 01:00:45,879] [akka:event-driven:dispatcher:global-1] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-1
+[DEBUG] [2010-12-16 01:00:45,883] [akka:event-driven-work-stealing:dispatcher:mappers-2] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-2
+[DEBUG] [2010-12-16 01:00:45,884] [akka:event-driven-work-stealing:dispatcher:mappers-1] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-1
+[DEBUG] [2010-12-16 01:00:45,884] [akka:event-driven-work-stealing:dispatcher:mappers-3] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-3
+[DEBUG] [2010-12-16 01:00:45,885] [akka:event-driven-work-stealing:dispatcher:mappers-4] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-4
+[DEBUG] [2010-12-16 01:00:45,887] [akka:event-driven-work-stealing:dispatcher:mappers-5] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-5
+[DEBUG] [2010-12-16 01:00:45,888] [akka:event-driven-work-stealing:dispatcher:mappers-7] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-7
+[DEBUG] [2010-12-16 01:00:45,888] [akka:event-driven-work-stealing:dispatcher:mappers-8] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-8
+[DEBUG] [2010-12-16 01:00:45,889] [akka:event-driven-work-stealing:dispatcher:mappers-10] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-10
+[DEBUG] [2010-12-16 01:00:45,889] [akka:event-driven-work-stealing:dispatcher:mappers-9] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-9
+[DEBUG] [2010-12-16 01:00:45,889] [akka:event-driven:dispatcher:global-2] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-2
+[DEBUG] [2010-12-16 01:00:45,889] [akka:event-driven-work-stealing:dispatcher:mappers-11] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-11
+[DEBUG] [2010-12-16 01:00:45,890] [akka:event-driven-work-stealing:dispatcher:mappers-6] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-6
+[DEBUG] [2010-12-16 01:00:45,891] [akka:event-driven-work-stealing:dispatcher:mappers-12] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-12
+[DEBUG] [2010-12-16 01:00:45,891] [akka:event-driven-work-stealing:dispatcher:mappers-13] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-13
+[DEBUG] [2010-12-16 01:00:45,891] [akka:event-driven-work-stealing:dispatcher:mappers-14] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-14
+[DEBUG] [2010-12-16 01:00:45,891] [akka:event-driven-work-stealing:dispatcher:mappers-15] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-15
+[DEBUG] [2010-12-16 01:00:45,908] [akka:event-driven:dispatcher:global-3] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-3
+[DEBUG] [2010-12-16 01:00:45,908] [akka:event-driven-work-stealing:dispatcher:mappers-16] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven-work-stealing:dispatcher:mappers-16
+[DEBUG] [2010-12-16 01:00:45,910] [akka:event-driven:dispatcher:global-5] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-5
+[DEBUG] [2010-12-16 01:00:45,910] [akka:event-driven:dispatcher:global-6] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-6
+[DEBUG] [2010-12-16 01:00:45,911] [akka:event-driven:dispatcher:global-7] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-7
+[DEBUG] [2010-12-16 01:00:45,920] [akka:event-driven:dispatcher:global-8] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-8
+[DEBUG] [2010-12-16 01:00:45,922] [akka:event-driven:dispatcher:global-4] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-4
+[DEBUG] [2010-12-16 01:00:45,922] [akka:event-driven:dispatcher:global-9] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-9
+[DEBUG] [2010-12-16 01:00:45,923] [akka:event-driven:dispatcher:global-10] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-10
+[DEBUG] [2010-12-16 01:00:45,924] [akka:event-driven:dispatcher:global-11] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-11
+[DEBUG] [2010-12-16 01:00:45,926] [akka:event-driven:dispatcher:global-12] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-12
+[DEBUG] [2010-12-16 01:00:45,927] [akka:event-driven:dispatcher:global-13] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-13
+[DEBUG] [2010-12-16 01:00:45,929] [akka:event-driven:dispatcher:global-14] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-14
+[DEBUG] [2010-12-16 01:00:45,931] [akka:event-driven:dispatcher:global-15] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-15
+[DEBUG] [2010-12-16 01:00:45,949] [akka:event-driven:dispatcher:global-16] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Created thread akka:event-driven:dispatcher:global-16
+[INFO] [2010-12-16 01:00:52,442] [akka:event-driven:dispatcher:global-1] s.s.a.a.ActorRegistry$: Shutting down all actors in the system...
+[DEBUG] [2010-12-16 01:00:52,463] [akka:event-driven:dispatcher:global-1] s.s.a.d.Dispatchers$globalExecutorBasedEventDrivenDispatcher$: Shutting down ExecutorBasedEventDrivenDispatcher[akka:event-driven:dispatcher:global]
+[DEBUG] [2010-12-16 01:00:52,463] [akka:event-driven:dispatcher:global-4] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-4
+[DEBUG] [2010-12-16 01:00:52,463] [akka:event-driven:dispatcher:global-3] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-3
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-7] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-7
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-14] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-14
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-10] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-10
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-6] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-6
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-1] s.s.a.d.ExecutorBasedEventDrivenWorkStealingDispatcher: Shutting down ExecutorBasedEventDrivenWorkStealingDispatcher[akka:event-driven-work-stealing:dispatcher:mappers]
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-12] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-12
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-8] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-8
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-5] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-5
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-11] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-11
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-9] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-9
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-16] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-16
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-13] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-13
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-15] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-15
+[DEBUG] [2010-12-16 01:00:52,464] [akka:event-driven:dispatcher:global-2] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-2
+[DEBUG] [2010-12-16 01:00:52,465] [akka:event-driven-work-stealing:dispatcher:mappers-7] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-7
+[DEBUG] [2010-12-16 01:00:52,465] [akka:event-driven-work-stealing:dispatcher:mappers-2] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-2
+[DEBUG] [2010-12-16 01:00:52,465] [akka:event-driven-work-stealing:dispatcher:mappers-11] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-11
+[DEBUG] [2010-12-16 01:00:52,465] [akka:event-driven-work-stealing:dispatcher:mappers-8] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-8
+[DEBUG] [2010-12-16 01:00:52,465] [akka:event-driven-work-stealing:dispatcher:mappers-9] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-9
+[DEBUG] [2010-12-16 01:00:52,466] [akka:event-driven-work-stealing:dispatcher:mappers-15] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-15
+[DEBUG] [2010-12-16 01:00:52,466] [akka:event-driven-work-stealing:dispatcher:mappers-3] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-3
+[DEBUG] [2010-12-16 01:00:52,465] [akka:event-driven-work-stealing:dispatcher:mappers-4] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-4
+[DEBUG] [2010-12-16 01:00:52,465] [akka:event-driven-work-stealing:dispatcher:mappers-5] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-5
+[DEBUG] [2010-12-16 01:00:52,466] [akka:event-driven-work-stealing:dispatcher:mappers-10] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-10
+[DEBUG] [2010-12-16 01:00:52,465] [akka:event-driven-work-stealing:dispatcher:mappers-16] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-16
+[DEBUG] [2010-12-16 01:00:52,465] [akka:event-driven-work-stealing:dispatcher:mappers-12] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-12
+[DEBUG] [2010-12-16 01:00:52,465] [akka:event-driven-work-stealing:dispatcher:mappers-6] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-6
+[DEBUG] [2010-12-16 01:00:52,466] [akka:event-driven-work-stealing:dispatcher:mappers-14] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-14
+[INFO] [2010-12-16 01:00:52,466] [akka:event-driven:dispatcher:global-1] s.s.a.a.ActorRegistry$: All actors have been shut down and unregistered from ActorRegistry
+[DEBUG] [2010-12-16 01:00:52,466] [akka:event-driven:dispatcher:global-1] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven:dispatcher:global-1
+[DEBUG] [2010-12-16 01:00:52,466] [akka:event-driven-work-stealing:dispatcher:mappers-1] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-1
+[DEBUG] [2010-12-16 01:00:52,466] [akka:event-driven-work-stealing:dispatcher:mappers-13] s.s.a.d.ThreadPoolBuilder$MonitorableThread: Exiting thread akka:event-driven-work-stealing:dispatcher:mappers-13
