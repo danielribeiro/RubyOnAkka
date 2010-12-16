@@ -11,12 +11,9 @@ class PingActor < Akka::UntypedActor
   def onReceive(message)
     puts "!!! Acted on: #{message}"
   end
-
 end
 
 actor = Akka::UntypedActor.actorOf(PingActor).start()
-actor.sendOneWay("hello actor world")
-
-require 'pp'
+actor.sendOneWay "hello actor world"
 sleep 1
 Akka::ActorRegistry.shutdownAll()

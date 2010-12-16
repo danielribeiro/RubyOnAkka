@@ -14,7 +14,6 @@ public class PingActor extends UntypedActor {
 		actor.sendOneWay("hello actor world");
 		TimeUnit.SECONDS.sleep(1);
 		ActorRegistry.shutdownAll();
-		Dispatchers.newExecutorBasedEventDrivenWorkStealingDispatcher("pooled-dispatcher");
 	}
 	
 	@Override
