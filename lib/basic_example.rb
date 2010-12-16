@@ -13,7 +13,7 @@ class PingActor < Akka::UntypedActor
   end
 end
 
-actor = Akka::UntypedActor.actorOf(PingActor).start()
+actor = Akka::UntypedActor.actorOf(PingActor).start
 actor.sendOneWay "hello actor world"
 sleep 1
-Akka::ActorRegistry.shutdownAll()
+Akka::ActorRegistry.shutdownAll
