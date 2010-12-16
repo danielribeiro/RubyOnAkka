@@ -1,26 +1,19 @@
-Powerhistory
+RubyOnAkka
 ==============
 
-Powerhistory a firefox  extension that enables more powerful queries, including: searching
-the content of the urls on the history, and limiting by dates.
-
-**Usage:** From menu Tools -> Power History, and opens a page where you can define
-your search options
-
-Known limitations: does not request iframes and frames inside the pages.
+Small experiment of using [akka](http://akkasource.org/) with [JRuby](http://jruby.org/).
 
 
-Building
+Running
 ----
-To build the project, you need [coffeescript](http://jashkenas.github.com/coffee-script/)
-at least 0.9.4, ruby (at least 1.8.7) and the zip command line tool (which comes with
-most linux distributions)
+Just clone the repository, and execute rake run (or just rake, as it is the default task).
+Since all akka, scala and jar
+dependencies are bundled in the vendor directory, you just need JRuby 1.5.6 (older versions
+had problems with scala artifacts).
 
-The default rake task compiles the project and watches for any changes on coffee files.
-This requires [watchr](https://github.com/mynyml/watchr) gem.
+To run other experiments just pass an argument to the rake task (rake -D run for more info).
 
-The actual building process is a simple command *rake package*. It will build the
-[xpi](https://developer.mozilla.org/en/extension_packaging) on the pkg folder.
+**Java Equivalent** For performance comparisons, a java version is also
 
 
 Meta
@@ -30,4 +23,4 @@ Created by Daniel Ribeiro
 
 Released under the MIT License: http://www.opensource.org/licenses/mit-license.php
 
-http://github.com/danielribeiro/powerhistory
+http://github.com/danielribeiro/RubyOnAkka
