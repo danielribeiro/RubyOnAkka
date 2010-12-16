@@ -43,10 +43,9 @@ module Actors
       param = message
       @target.__send__ param.name, *param.args, &param.block
     end
-    
   end
 
-  MethodParametrs = Struct.new :name, :args, :block
+  MethodParameters = Struct.new :name, :args, :block
 
   # Used to adapt method calls to actor message sending (using sendOneWay).
   # Used in combinatrion with DelegatorActor. See more in actorOf method
@@ -60,7 +59,7 @@ module Actors
     end
 
     def method_missing(name, *args, &block)
-      @actorRef.sendOneWay MethodParametrs.new name, args, block
+      @actorRef.sendOneWay MethodParameters.new name, args, block
     end
   end
 
