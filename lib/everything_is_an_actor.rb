@@ -4,7 +4,5 @@ class HelloWord
     puts "hello actor world"
   end
 end
-o = Actors.actorOf HelloWord.new
-o.hi
-sleep 1
-Akka::ActorRegistry.shutdownAll
+Actors.actorOf(HelloWord.new).hi
+Actors.delayedShutdown 1

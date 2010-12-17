@@ -27,6 +27,5 @@ end
 actor = Akka::UntypedActor.actorOf { PingActor.new('lala') }.start()
 actor.sendOneWay("hello actor world")
 
-require 'pp'
 sleep 1
 Akka::ActorRegistry.shutdownAll()

@@ -4,7 +4,5 @@ class PingActor < Actors::Base
     puts "!!! Acted on: #{message}"
   end
 end
-actor = PingActor.spawn
-actor.sendOneWay "hello actor world"
-sleep 1
-Akka::ActorRegistry.shutdownAll
+PingActor.spawn.sendOneWay "hello actor world"
+Actors.delayedShutdown 1

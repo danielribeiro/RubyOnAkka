@@ -63,9 +63,16 @@ module Actors
     end
   end
 
-
-
   extend self
+  def delayedShutdown(seconds)
+    sleep seconds
+    shutdown
+  end
+
+  def shutdown
+    Akka::ActorRegistry.shutdownAll
+  end
+
   def spawn(&block)
     BlockActor.spawn block
   end
