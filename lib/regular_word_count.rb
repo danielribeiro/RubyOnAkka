@@ -25,6 +25,5 @@ if $PROGRAM_NAME == __FILE__
   result = WordCount.new.count(f)
   finish = Time.now
   puts ">> All over: Just to say we used any computed value: #{result['shakespeare']}"
-  pp result
   puts ">> Total time: #{finish - start}s"
 end
