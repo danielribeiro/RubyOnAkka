@@ -11,7 +11,7 @@ module Actors
 
     def self.build(*args)
       return Akka::UntypedActor.actorOf(self)  if args.empty?
-      Akka::UntypedActor.actorOf { self.new(*args) }
+      Akka::UntypedActor.actorOf { self.new.initialize *args }
     end
 
     def self.spawn(*args)
