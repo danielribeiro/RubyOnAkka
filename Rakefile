@@ -33,33 +33,3 @@ task :benchmark, :chunkSize, :mapActorsCount do |t, args|
   jruby_execute 'lib/benchmarking_akka.rb',
     [args.chunkSize || "200", args.mapActorsCount || "2"]
 end
-
-desc "Generates runner script appropriate for the current machine.
-For users using jruby rake"
-task :genrunner do
-  puts "Generating runner.sh"
-  filename = "lib/actor_word_count.rb" if filename.nil?
-  File.open("runner.sh", 'w') do |f|
-    f.write <<-eof
-#!/bin/bash
-CLASSPATH=#{classpath} jruby -Ilib $1
-eof
-  end
-  File.chmod 0755, "runner.sh"
-  puts "runner.sh created!"
-end
-
-desc "Generates a benchmark script appropriate for the current machine.
-For users using jruby rake"
-task :genbenchmark do
-  puts "Generating benchmark.sh"
-  filename = "lib/actor_word_count.rb" if filename.nil?
-  File.open("benchmark.sh", 'w') do |f|
-    f.write <<-eof
-#!/bin/bash
-CLASSPATH=#{classpath} jruby -Ilib #{file} $1 $2
-eof
-  end
-  File.chmod 0755, "benchmark.sh"
-  puts "benchmark.sh created!"
-end
