@@ -12,10 +12,8 @@ def classpath
 end
 
 def jruby_execute(filename = nil, args = [])
-  ENV['CLASSPATH'] = classpath
   filename = "lib/actor_word_count.rb" if filename.nil?
-  puts ENV['CLASSPATH']
-  system 'jruby', *(['-Ilib', filename] + args)
+  system "env CLASSPATH=#{classpath} jruby -Ilib #{filename} " + args.join(' ')
 end
 
 task :default => :run
